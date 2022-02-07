@@ -1,0 +1,14 @@
+name: rust
+description: Basic Rust waPC project
+templates:
+  - test.txt
+variables:
+  - name: name
+    message: Enter the project name
+  - name: description
+    message: Enter the project description
+  - name: author
+    message: Enter the project's author
+  - name: version
+    message: Enter your initial version
+    initial: 0.0.1
