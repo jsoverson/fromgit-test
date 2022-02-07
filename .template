@@ -1,14 +1,7 @@
 name: rust
-description: Basic Rust waPC project
+description: Test template for fromgit
 templates:
-  - test.txt
+  - templated.md
 variables:
   - name: name
     message: Enter the project name
-  - name: description
-    message: Enter the project description
-  - name: author
-    message: Enter the project's author
-  - name: version
-    message: Enter your initial version
-    initial: 0.0.1
